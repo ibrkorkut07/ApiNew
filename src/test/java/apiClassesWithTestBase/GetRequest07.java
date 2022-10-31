@@ -25,6 +25,36 @@ public class GetRequest07 extends JsonPlaceHolderTestbase {
     "checkout":"2020-02-20" }
     */
 
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    @Test
 //    public void test() {
 //        // String url = "https://restful-booker.herokuapp.com/booking/1005";
@@ -45,4 +75,3 @@ public class GetRequest07 extends JsonPlaceHolderTestbase {
 //        Assert.assertEquals(true, jsonPath.getBoolean("depositpaid"));
 //        Assert.assertEquals("2013-02-23", jsonPath.getString("bookingdates.checkin"));
 //    }
-}

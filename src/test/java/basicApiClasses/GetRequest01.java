@@ -18,6 +18,22 @@ public class GetRequest01 {
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //    @Test
@@ -33,4 +49,3 @@ public class GetRequest01 {
 //                                    .contentType("application/json; charset=utf-8")
 //                                    .statusLine("HTTP/1.1 200 OK");
 //    }
-}

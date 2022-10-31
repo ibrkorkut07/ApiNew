@@ -36,6 +36,22 @@ public class GetRequest03 {
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -52,5 +68,3 @@ public class GetRequest03 {
 //                                            "Brown", Matchers.equalTo("lastname"),
 //                                                    "2017-12-27", Matchers.equalTo("bookingdates.checkin"));
 //    }
-
-}

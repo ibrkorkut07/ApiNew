@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35084e52-e657-4062-8a69-c16979e4fc5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest11TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest06WithTestbase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest07WithTestbase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest08WithTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest06NoTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest06NoTestbase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest06NoTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBases/DummyTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBases/DummyTestbase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testBases/JsonPlaceHolderTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBases/JsonPlaceHolderTestbase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,39 +56,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GetRequest07.test">
-    <configuration name="GetRequest03.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ApiNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicApiClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basicApiClasses" />
-      <option name="MAIN_CLASS_NAME" value="basicApiClasses.GetRequest03" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest06NoTestbase.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ApiNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicApiClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basicApiClasses" />
-      <option name="MAIN_CLASS_NAME" value="basicApiClasses.GetRequest06NoTestbase" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GetRequest10.test">
     <configuration name="GetRequest06.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiNew" />
       <extension name="coverage">
@@ -133,13 +104,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetRequest08.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiClassesWithTestBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiClassesWithTestBase" />
+      <option name="MAIN_CLASS_NAME" value="apiClassesWithTestBase.GetRequest08" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest09.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiClassesWithTestBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiClassesWithTestBase" />
+      <option name="MAIN_CLASS_NAME" value="apiClassesWithTestBase.GetRequest09" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest10.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiClassesWithTestBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiClassesWithTestBase" />
+      <option name="MAIN_CLASS_NAME" value="apiClassesWithTestBase.GetRequest10" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetRequest10.test" />
+        <item itemvalue="JUnit.GetRequest09.test" />
+        <item itemvalue="JUnit.GetRequest08.test" />
         <item itemvalue="JUnit.GetRequest07.test" />
         <item itemvalue="JUnit.GetRequest07" />
-        <item itemvalue="JUnit.GetRequest06.test" />
-        <item itemvalue="JUnit.GetRequest06NoTestbase.test" />
-        <item itemvalue="JUnit.GetRequest03.test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +183,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -21,6 +21,24 @@ public class GetRequest04 {
      */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    @Test
 //    public void test() {
 //        String url = "https://restful-booker.herokuapp.com/booking/5";

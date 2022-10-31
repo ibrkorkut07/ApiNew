@@ -22,6 +22,22 @@ public class GetRequest02 {
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //    @Test
@@ -34,4 +50,3 @@ public class GetRequest02 {
 //        Assert.assertTrue(response.asString().contains("Not Found"));
 //        Assert.assertFalse(response.asString().contains("API"));
 //    }
-}
