@@ -18,11 +18,10 @@ public class JsonPlaceHolderTestData {
         expectedData.put("completed",false);
         return expectedData;
     }
-/*
-{
-     "userId": 55,
-     "title": "Tidy your room",
-     "completed": false
+/* {
+   "userId": 55,
+   "title": "Tidy your room",
+   "completed": false
    }
  */
 
@@ -35,14 +34,12 @@ public class JsonPlaceHolderTestData {
         expectedRequest.put("completed",false);
         return expectedRequest;
     }
-    /*
-    {
- "userId": 21,
- "title": "Wash the dishes",
- "completed": false
+/* {
+  "userId": 21,
+  "title": "Wash the dishes",
+  "completed": false
  }
-     */
-
+*/
     public JSONObject setUpPutData(){
 
         JSONObject expectedRequest = new JSONObject();
@@ -51,7 +48,6 @@ public class JsonPlaceHolderTestData {
         expectedRequest.put("completed",false);
         return expectedRequest;
     }
-
     public JSONObject setUpPatchRequestData(){
 
         JSONObject requestData=new JSONObject();
@@ -60,15 +56,14 @@ public class JsonPlaceHolderTestData {
     }
 
     public JSONObject setUpPatchExpectedData() {
-        /*
-        {
- "userId": 10,
- "title": "API calismaliyim"
- "completed": true,
- "id": 198
+/*
+    {
+    "userId": 10,
+    "title": "API calismaliyim"
+    "completed": true,
+    "id": 198
 }
-         */
-
+*/
         JSONObject expectedData=new JSONObject();
         expectedData.put("userId",10);
         expectedData.put("title","API calismaliyim");

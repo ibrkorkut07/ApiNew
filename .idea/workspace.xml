@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35084e52-e657-4062-8a69-c16979e4fc5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest11TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testData/DummyTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testData/HerokuappTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithTestBase/GetRequest08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest06NoTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicApiClasses/GetRequest06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testBases/DummyTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBases/DummyTestbase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testBases/JsonPlaceHolderTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBases/JsonPlaceHolderTestbase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBases/HerokuAppTestbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBases/HerokuAppTestbase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/ApiNew/src/test/java/testData"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\testData" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.GetRequest10.test">
     <configuration name="GetRequest06.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiNew" />
