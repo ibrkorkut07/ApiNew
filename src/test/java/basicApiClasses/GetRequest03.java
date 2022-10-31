@@ -33,21 +33,24 @@ public class GetRequest03 {
         }
         }
         */
-    @Test
-    public void test() {
-
-        String url = "https://restful-booker.herokuapp.com/booking/7";
-        Response response = given().accept(ContentType.JSON).when().get(url);
-
-        Assert.assertEquals(418, response.statusCode());
-        Assert.assertEquals("application/json; charset=utf-8", response.contentType());
-
-        response.then().assertThat().body("Jim", Matchers.equalTo("firstname"),
-                                            "Brown", Matchers.equalTo("lastname"),
-                                                    "2017-12-27", Matchers.equalTo("bookingdates.checkin"));
 
 
 
-    }
+
+
+
+//    @Test
+//    public void test() {
+//
+//        String url = "https://restful-booker.herokuapp.com/booking/7";
+//        Response response = given().accept(ContentType.JSON).when().get(url);
+//
+//        Assert.assertEquals(418, response.statusCode());
+//        Assert.assertEquals("application/json; charset=utf-8", response.contentType());
+//
+//        response.then().assertThat().body("Jim", Matchers.equalTo("firstname"),
+//                                            "Brown", Matchers.equalTo("lastname"),
+//                                                    "2017-12-27", Matchers.equalTo("bookingdates.checkin"));
+//    }
 
 }

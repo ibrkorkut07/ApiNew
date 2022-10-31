@@ -1,13 +1,8 @@
 package apiClassesWithTestBase;
 
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Test;
-import testBases.DummyTestbase;
-
 import static io.restassured.RestAssured.given;
 
-public class GetRequest08WithTestbase {
+public class GetRequest08 {
     /*
    http://dummy.restapiexample.com/api/v1/employees url'inde bulunan
 
