@@ -1,20 +1,12 @@
 package apiClassesWithDeserialization;
 
-import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.DummyTestbase;
-import testData.DummyTestData;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest13 extends DummyTestbase {
+public class GetRequest13Deserialization extends DummyTestbase {
 /*
+    http://dummy.restapiexample.com/api/v1/employees url ine bir istek gönderildiğinde
     Status kodun 200 olduğunu,
     5. Çalışan isminin "Airi Satou" olduğunu ,
     çalışan sayısının 24 olduğunu,
@@ -29,7 +21,19 @@ public class GetRequest13 extends DummyTestbase {
     "profile_image": "" }
 */
 
-    @Test
+
+
+
+
+
+
+
+
+
+
+
+    /*
+        @Test
     public void test(){
         spec.pathParam("parametre1","employees");
 
@@ -72,14 +76,14 @@ public class GetRequest13 extends DummyTestbase {
         }
 
         Assert.assertTrue(actualYasListesi.containsAll((List)expectedDataMap.get("arananyaslar")));
-/*  11. Çalışan bilgilerinin
-    {
-    “id”:”11”
-    "employee_name": "Jena Gaines",
-    "employee_salary": "90560",
-    "employee_age": "30",
-    "profile_image": "" }
-    } gibi olduğunu test edin.*/
+//    11. Çalışan bilgilerinin
+//    {
+//    “id”:”11”
+//    "employee_name": "Jena Gaines",
+//    "employee_salary": "90560",
+//    "employee_age": "30",
+//    "profile_image": "" }
+//    } gibi olduğunu test edin.
 
         Assert.assertEquals(((Map)expectedDataMap.get("onbirincicalisan")).get("employee_name"),
                 ((Map) ((List<?>) actualDataMap.get("data")).get(10)).get("employee_name"));
@@ -90,4 +94,6 @@ public class GetRequest13 extends DummyTestbase {
         Assert.assertEquals(((Map<?, ?>) expectedDataMap.get("onbirincicalisan")).get("profile_image"),
                 ((Map) ((List<?>) actualDataMap.get("data")).get(10)).get("profile_image"));
     }
+     */
+
 }
