@@ -35,10 +35,30 @@ public class PostRequest01 extends DummyTestbase {
     seceneklerine dikkat et.
      */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
     @Test
     public void test(){
 
-        spec.pathParam("parametre1","create");
+        spec.pathParams("parametre1","api", "paramaetre2", "v1", "parametre3", "create");
         DummyTestData obje=new DummyTestData();
 
         //post request yaparken biz body göndermek zorundayız, testdata classında oluşturduğumuz request
@@ -52,7 +72,7 @@ public class PostRequest01 extends DummyTestbase {
                 spec(spec).auth().basic("admin","password123")
                 .body(requestBodyMap).
                 when().
-                post("/{parametre1}");
+                post("/{parametre1}/{parametre2}/{parametre3}");
 
         response.prettyPrint();
 
@@ -67,4 +87,7 @@ public class PostRequest01 extends DummyTestbase {
         Assert.assertEquals(expectedDataMap.get("status"),json.getString("status"));
         Assert.assertEquals(expectedDataMap.get("message"),json.getString("message"));
     }
+     */
+
+
 }

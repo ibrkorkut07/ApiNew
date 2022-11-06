@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35084e52-e657-4062-8a69-c16979e4fc5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiPostRequestClasses/PostRequest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiPostRequestClasses/PostRequest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest14Deserialization_Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiClassesWithDeserialization/GetRequest14Deserialization_Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiPostRequestClasses/PostRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiPostRequestClasses/PostRequest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiPostRequestClasses/PostRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiPostRequestClasses/PostRequest02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

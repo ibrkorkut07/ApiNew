@@ -37,7 +37,26 @@ public class PostRequest02 extends HerokuAppTestbase {
         }  olduğunu test edin
      */
 
-    @Test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+     @Test
     public void test(){
         //url
         spec.pathParam("parametre1","booking");
@@ -100,4 +119,6 @@ public class PostRequest02 extends HerokuAppTestbase {
         Assert.assertEquals(expectedRequestData.getJSONObject("bookingdates").getString("checkout"),
                 json.getString("booking.bookingdates.checkout"));
     }
+     */
+
 }
