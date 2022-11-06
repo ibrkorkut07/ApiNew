@@ -1,4 +1,4 @@
-package PostRequestClasses;
+package Post_Delete_Patch_RequestClasses;
 
 import testBases.DummyTestbase;
 
