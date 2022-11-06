@@ -17,6 +17,32 @@ public class GetRequest14Deserialization_Json extends DummyTestbase {
     En küçük yaşın 19 olduğunu,
     İkinci en yüksek maaşın 675000 olduğunu test edin.  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
     @Test
     public void test(){
         spec.pathParam("parametre1","employees");
@@ -67,7 +93,6 @@ public class GetRequest14Deserialization_Json extends DummyTestbase {
 
         //2-JsonPath yöntemi ile
         JsonPath json=response.jsonPath();
-
         //En yüksek maaşın 725000 olduğunu,
         List<Integer> maasListesijson=json.getList("data.employee_salary");
         Collections.sort(maasListesijson);
@@ -79,4 +104,6 @@ public class GetRequest14Deserialization_Json extends DummyTestbase {
         Collections.sort(yasListesijson);
         Assert.assertEquals(expectedDataMap.get("enKucukYas"),yasListesijson.get(0));
     }
+     */
+
 }
