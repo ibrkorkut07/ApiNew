@@ -1,4 +1,4 @@
-package apiClassesWithTestBase;
+package ClassesWithTestBase;
 
 import testBases.JsonPlaceHolderTestbase;
 

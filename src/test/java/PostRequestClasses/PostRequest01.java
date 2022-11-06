@@ -1,13 +1,7 @@
-package apiPostRequestClasses;
+package PostRequestClasses;
 
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.DummyTestbase;
-import testData.DummyTestData;
 
-import java.util.HashMap;
 import static io.restassured.RestAssured.given;
 
 public class PostRequest01 extends DummyTestbase {
@@ -83,11 +77,11 @@ public class PostRequest01 extends DummyTestbase {
         Assert.assertEquals(expectedDataMap.get("message"),actualDataMap.get("message"));
 
         //JsonPath
+        HashMap<String, Object> actualDataMap=response.as(HashMap.class);  // burasi ayni
+        Assert.assertEquals(expectedDataMap.get("statusCode"),response.getStatusCode());  // burasi ayni
         JsonPath json=response.jsonPath();
         Assert.assertEquals(expectedDataMap.get("status"),json.getString("status"));
         Assert.assertEquals(expectedDataMap.get("message"),json.getString("message"));
     }
      */
-
-
 }

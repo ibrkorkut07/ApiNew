@@ -1,14 +1,11 @@
-package apiClassesWithDeserialization;
+package DeserializationClasses;
 
 import testBases.HerokuAppTestbase;
 import testData.HerokuappTestData;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.codehaus.jackson.annotate.JsonTypeInfo;
 import org.junit.Assert;
 import org.junit.Test;
-import testBases.HerokuAppTestbase;
-import testData.HerokuappTestData;
 
 import java.util.HashMap;
 import java.util.Map;

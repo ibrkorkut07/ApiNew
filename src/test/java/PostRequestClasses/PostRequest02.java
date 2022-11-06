@@ -1,16 +1,7 @@
-package apiPostRequestClasses;
+package PostRequestClasses;
 
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.codehaus.groovy.classgen.asm.AssertionWriter;
-import org.json.JSONObject;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.HerokuAppTestbase;
-import testData.HerokuappTestData;
-import java.util.HashMap;
-import java.util.Map;
+
 import static io.restassured.RestAssured.given;
 
 public class PostRequest02 extends HerokuAppTestbase {

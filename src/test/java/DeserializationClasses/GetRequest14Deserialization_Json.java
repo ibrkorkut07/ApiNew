@@ -1,12 +1,7 @@
-package apiClassesWithDeserialization;
+package DeserializationClasses;
 
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.DummyTestbase;
-import testData.DummyTestData;
-import java.util.*;
+
 import static io.restassured.RestAssured.given;
 
 public class GetRequest14Deserialization_Json extends DummyTestbase {

@@ -1,14 +1,8 @@
-package apiClassesWithTestBase;
+package ClassesWithTestBase;
 
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.JsonPlaceHolderTestbase;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.requestSpecification;
 
 public class GetRequest07 extends JsonPlaceHolderTestbase {
     /* response.jsonPath(); methodu JsonPath class’indan obje ureterek response uzerinden

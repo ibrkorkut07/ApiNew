@@ -1,4 +1,4 @@
-package apiClassesWithTestBase;
+package ClassesWithTestBase;
 
 public class GetRequest06 {
         /*

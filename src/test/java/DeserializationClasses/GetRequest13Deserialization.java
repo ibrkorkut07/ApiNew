@@ -1,4 +1,4 @@
-package apiClassesWithDeserialization;
+package DeserializationClasses;
 
 import testBases.DummyTestbase;
 

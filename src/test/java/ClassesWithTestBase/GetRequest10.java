@@ -1,13 +1,6 @@
-package apiClassesWithTestBase;
+package ClassesWithTestBase;
 
-import io.restassured.path.json.JsonPath;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.DummyTestbase;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import static io.restassured.RestAssured.given;
 

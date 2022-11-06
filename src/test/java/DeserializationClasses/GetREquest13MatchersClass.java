@@ -1,4 +1,4 @@
-package apiClassesWithDeserialization;
+package DeserializationClasses;
 
 import io.restassured.response.Response;
 import org.junit.Test;

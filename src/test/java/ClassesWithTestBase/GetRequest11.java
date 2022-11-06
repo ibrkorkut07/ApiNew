@@ -1,15 +1,8 @@
-package apiClassesWithTestBase;
+package ClassesWithTestBase;
 
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
 import testBases.JsonPlaceHolderTestbase;
 
-import java.util.HashMap;
-
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
 public class GetRequest11 extends JsonPlaceHolderTestbase {
     /*
