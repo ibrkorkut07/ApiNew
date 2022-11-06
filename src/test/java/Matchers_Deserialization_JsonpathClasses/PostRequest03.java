@@ -1,48 +1,30 @@
-package Post_Delete_Patch_RequestClasses;
+package Matchers_Deserialization_JsonpathClasses;
 
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import org.json.JSONObject;
+import org.junit.Assert;
+import org.junit.Test;
 import testBases.JsonPlaceHolderTestbase;
-
+import testData.JsonPlaceHolderTestData;
+import java.util.HashMap;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
 
 public class PostRequest03 extends JsonPlaceHolderTestbase {
 
     /*  https://jsonplaceholder.typicode.com/todos URL ine aşağıdaki body gönderildiğinde,
-     {  "userId": 55,
+     { "userId": 55,
         "title": "Tidy your room",
-        "completed": false  }
-    Dönen response un Status kodunun 201 ve response body nin aşağıdaki gibi olduğunu test edin
-   {  "userId": 55,
-      "title": "Tidy your room",
-      "completed": false,
-      "id": …  }  */
+        "completed": false }
+    Dönen response un Status kodunun 201 ve
+    response body nin aşağıdaki gibi olduğunu test edin
+   { "userId": 55,
+     "title": "Tidy your room",
+     "completed": false,
+     "id": … }  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
     @Test
     public void test(){
 
@@ -78,9 +60,9 @@ public class PostRequest03 extends JsonPlaceHolderTestbase {
 
         //De Serialization
         HashMap<String,Object> actualDataMap=response.as(HashMap.class);
+
         Assert.assertEquals(expectedRequest.getString("title"),actualDataMap.get("title"));
         Assert.assertEquals(expectedRequest.getInt("userId"),actualDataMap.get("userId"));
         Assert.assertEquals(expectedRequest.getBoolean("completed"),actualDataMap.get("completed"));
     }
-     */
 }

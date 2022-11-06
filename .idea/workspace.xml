@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35084e52-e657-4062-8a69-c16979e4fc5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PostRequestClasses/PostRequest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PostRequestClasses/PutRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JsonObjectClasses/PatchRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Matchers_Deserialization_JsonpathClasses/DeleteRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Post_Delete_Patch_RequestClasses/PostRequestWithPojo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Post_Delete_Patch_RequestClasses/PostRequestWithPojo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PostRequestClasses/PostRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostRequestClasses/PostRequest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializationClasses/GetREquest13MatchersClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatchersClasses/GetREquest13MatchersClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializationClasses/GetRequest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Deserialization_JsonpathClasses/GetRequest12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializationClasses/GetRequest13JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonpathClasses/GetRequest13JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializationClasses/GetRequest14Deserialization_Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Deserialization_JsonpathClasses/GetRequest14Deserialization_Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonObjectClasses/PostRequest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Matchers_Deserialization_JsonpathClasses/PostRequest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Post_Delete_Patch_RequestClasses/PostRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Deserialization_JsonpathClasses/PostRequest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Post_Delete_Patch_RequestClasses/PostRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Deserialization_JsonpathClasses/PostRequest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Post_Delete_Patch_RequestClasses/PostRequest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Post_Delete_Patch_RequestClasses/PutRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonpathClasses/PutRequest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +51,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/ApiNew/src/test/java/PostRequestClasses"
+    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/ApiNew/src/test/java/Post_Delete_Patch_RequestClasses"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\Post_Delete_Patch_RequestClasses" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\PostRequestClasses" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\apiPostRequestClasses" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\apiClassesWithDeserialization" />

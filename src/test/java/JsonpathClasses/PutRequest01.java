@@ -1,4 +1,4 @@
-package Post_Delete_Patch_RequestClasses;
+package JsonpathClasses;
 
 import testBases.JsonPlaceHolderTestbase;
 

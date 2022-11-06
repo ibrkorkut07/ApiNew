@@ -1,4 +1,4 @@
-package DeserializationClasses;
+package JsonpathClasses;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

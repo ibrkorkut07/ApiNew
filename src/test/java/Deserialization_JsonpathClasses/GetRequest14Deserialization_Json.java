@@ -1,4 +1,4 @@
-package DeserializationClasses;
+package Deserialization_JsonpathClasses;
 
 import testBases.DummyTestbase;
 
