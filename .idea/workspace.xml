@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35084e52-e657-4062-8a69-c16979e4fc5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectMapperClasses/GetRequestWithObjectMapper01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectMapperClasses/GetRequestWithObjectMapper02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectMapperClasses/ReqresRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectMapperClasses/ReqresToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojosYeni/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojosYeni/BookingPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PojosYeni/Bookingdates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +40,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/ApiNew/src/test/java/ObjectMapperClasses"
+    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/ApiNew/src/test/java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\ObjectMapperClasses" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\PojoClasses" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\Pojos" />
       <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\Post_Delete_Patch_RequestClasses" />
-      <recent name="C:\Users\ibrko\IdeaProjects\ApiNew\src\test\java\PostRequestClasses" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GetRequest10.test">
